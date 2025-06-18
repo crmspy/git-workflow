@@ -23,6 +23,16 @@ Panduan ini cocok untuk:
 - Team lead, developer, dan QA di perusahaan software
 - Tim yang ingin meningkatkan standar kolaborasi dan kualitas kode
 - Siapa saja yang ingin mengadopsi workflow modern dan best practice dalam pengembangan perangkat lunak
+---
+## 📑 Daftar Isi
+
+- [🔁 Strategi Branching dan Workflow](1.%20workflow.md)
+- [🔹 Naming Convention](2.%20naming%20convention.md)
+- [✅ Commit Message](3.%20commit.md)
+- [✅ Code Review & Pull Request](4.%20code%20review.md)
+- [🔖 Versioning & Release](5.%20version%20release.md)
+- [🐛 Issue, Bug, dan Hotfix Management](6.%20management%20issue.md)
+- [🧠 Advanced Git Usage](7.%20advanced%20git%20usage.md)
 
 ---
 
@@ -157,34 +167,5 @@ Commit message yang baik sangat penting untuk memudahkan tracking perubahan, kol
 * `commit-msg`: enforce format commit (conventional commit)
 * Tools: Husky, Commitlint
 
----
-
-## 📑 Templates & Checklist
-
-### ✅ PR Checklist Template
-
-```md
-- [ ] Sudah test fitur utama
-- [ ] Tidak ada error di console
-- [ ] Fix terkait issue: #___
-- [ ] Reviewer sudah approve
-```
-
-### 📄 Format Commit
-
-* `feat: menambahkan fitur baru`
-* `fix: memperbaiki bug saat login`
-* `docs: update dokumentasi`
-* `refactor: optimasi kode tanpa mengubah behavior`
-
-### 🐞 Simulasi Hotfix
-
-1. Terjadi bug di production
-2. Buat branch `hotfix/critical-fix`
-3. Fix & PR → merge ke `main` + `develop`
-4. Buat tag `vX.Y.Z`
-5. Deploy
-
----
 
 Panduan ini bisa kamu sesuaikan dengan kebutuhan tim dan tools (GitHub, GitLab, Bitbucket). Jika butuh versi PDF atau dokumentasi Notion, tinggal konversi markdown ini. 🚀
