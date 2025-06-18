@@ -1,6 +1,32 @@
-# 📘 Git Workflow & Software Lifecycle Guide for Team Leads
+# 📘 Git Workflow & Software Lifecycle Guide
 
-Panduan ini dibuat untuk engineer dan team lead yang mengelola workflow Git, code review, versioning, issue, bug, dan hotfix secara profesional. Cocok untuk proyek skala kecil hingga besar, baik open-source maupun enterprise.
+Repository ini berisi panduan lengkap dan praktis mengenai workflow Git, konvensi penamaan branch, commit message, code review, serta otomatisasi pengembangan perangkat lunak untuk tim pengembang.  
+Dokumentasi ini dirancang agar mudah diikuti oleh seluruh anggota tim, baik untuk onboarding maupun menjaga konsistensi proses pengembangan.
+
+## Fitur Utama
+
+- Penjelasan berbagai workflow Git (Git Flow, GitHub Flow, Trunk-based)
+- Konvensi penamaan branch yang konsisten dan mudah dilacak
+- Standar penulisan commit message dengan Conventional Commit
+- Best practice Pull Request & code review
+- Otomatisasi linting, unit test, dan code review di CI/CD
+- Tips penggunaan tools seperti CODEOWNERS, commitlint, dan integrasi dengan VS Code
+## Tujuan
+
+- Membantu tim menjaga kualitas, keamanan, dan keterlacakan kode
+- Memudahkan kolaborasi dan review antar anggota tim
+- Mendukung otomatisasi proses release dan dokumentasi perubahan
+
+## Untuk Siapa
+
+Panduan ini cocok untuk:
+- Team lead, developer, dan QA di perusahaan software
+- Tim yang ingin meningkatkan standar kolaborasi dan kualitas kode
+- Siapa saja yang ingin mengadopsi workflow modern dan best practice dalam pengembangan perangkat lunak
+
+---
+
+**Silakan fork, gunakan, dan modifikasi sesuai kebutuhan tim Anda!**
 
 ---
 
